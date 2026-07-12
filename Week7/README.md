@@ -24,18 +24,6 @@ A Retrieval-Augmented Generation (RAG) system that answers questions, generates 
 - **PDF Processing:** `pypdf`, `fpdf2`
 - **Environment Management:** `python-dotenv`
 
-## 📂 Project Structure
-
-```
-rag_qa_system/
-├── app.py                 # Streamlit UI and main app flow
-├── config.py               # Configuration (models, chunk size, paths)
-├── rag_pipeline.py          # Core RAG logic: ingestion, embedding, retrieval, generation
-├── utils.py                 # Document loading and PDF export utilities
-├── requirements.txt          # Python dependencies
-└── .env.example               # Template for required environment variables
-```
-
 ## ⚙️ How It Works (Pipeline)
 
 1. **Document Ingestion** — PDFs/text files are loaded and converted to raw text
@@ -46,28 +34,3 @@ rag_qa_system/
 6. **Context Retrieval** — the most relevant chunks are retrieved
 7. **Answer Generation** — Gemini generates a grounded response using the retrieved context
 
-## 🧰 Setup Instructions
-
-1. Clone the repository
-2. Create a virtual environment and activate it
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Copy `.env.example` to `.env` and add your own API key:
-   ```
-   GOOGLE_API_KEY=your_google_api_key_here
-   ```
-5. Run the app:
-   ```bash
-   streamlit run app.py
-   ```
-
-## 📌 Notes
-
-- Works best with plain-text-heavy PDFs (reports, articles, notes). Table/diagram-heavy slide decks may extract text unreliably due to PDF text-layer limitations.
-- "Whole Document" question/MCQ generation samples a capped number of chunks for very large documents — use the "Specific Topic" scope for targeted coverage of later sections in large PDFs.
-
-## 📄 License
-
-This project was built for educational/internship assignment purposes.
