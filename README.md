@@ -23,13 +23,11 @@ This repository contains all weekly assignments and the final major project comp
 - Scikit-learn
 - XGBoost
 - TensorFlow / Keras
-- OpenCV
-- Streamlit
-- LangChain
+- RAG 
 - Regular Expressions (Regex)
-- Joblib
 - Git & GitHub
 - Jupyter Notebook
+- Streamlit
 
 ---
 
