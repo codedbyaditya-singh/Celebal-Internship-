@@ -1,0 +1,4 @@
+lead_score/
+__pycache__/
+*.pyc
+.DS_Store
