@@ -105,6 +105,29 @@ The application allows users to:
 - Receive basic business recommendations based on prediction results
 
 ---
+## 📸 Application Screenshots
+
+### 🏠 Home Page
+
+![Dashboard](UI_screenshots/Project_Dashboard.png)
+
+---
+
+### 📊 Prediction Result
+
+### 🎯 High Probability Prediction
+
+![Heigh prediction](UI_screenshots/Heigh_prediction.png)
+
+### 🎯 Medium Probability Prediction
+
+![Medium prediction](UI_screenshots/Medium_prediction.png)
+
+### 🎯 Low Probability Prediction
+
+![Low prediction](UI_screenshots/Low_prediction.png)
+
+---
 
 ## ▶️ Installation
 
