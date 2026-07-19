@@ -1,4 +1,4 @@
-## WEEk 8
+## Week 8 Assignment - Rule-based Agentic AI pipeline 
 
 This project implements a **rule-based Agentic AI pipeline** that intelligently routes natural language queries to the appropriate tool using keyword and pattern matching. The system analyzes user queries, determines the intended task, invokes the corresponding tool, and returns standardized responses while handling unsupported queries gracefully.
 
